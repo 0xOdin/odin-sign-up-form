@@ -10,58 +10,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="hero">
-        <img src="images/iceberg.jpg" alt="Large iceberg floating in the ocean">
+    
+    <aside>
+        <img src="images/iceberg.jpg" alt="Large iceberg floating in the ocean" class="hero-img">
         <div class="logo">
-            NORTH / 72 
+            NORTH / 72
         </div>
         <div class="credit">Photo by <a href="https://unsplash.com/@paul_nic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Paolo Nicolello</a> on <a href="https://unsplash.com/photos/glacier-on-sea-during-daytime-E2nrh-aTkC8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a></div>
-    </div>
+    </aside>
 
-    <div class="form-section">
-        <div class="text">
-            <h1>Create Account</h1>
-            <p>This isn't just another account. Discover NORTH / 72 and find something worth exploring.</p>
-            <p>You <span>know</span> you want to.</p>
-        </div>
+    <main>
+        <div class="form-section">
+            <div class="text">
+                <h1>Create Account</h1>
+                <p>This isn't just another account. Discover NORTH / 72 and find something worth exploring.</p>
+                <p>You <span>know</span> you want to.</p>
+            </div>
         
-
-        <form action="#" method="POST">
-            <div class="form-bg">
-                <p class="form-text">Let's Do This.</p>
-                <div class="input-fields">
-                    <div class="input-style">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" placeholder="Thor" name="first_name" required pattern="[A-Za-zÀ-ÖØ-öø-ÿ]+(?:[ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*">
-                    </div>
-                    <div class="input-style">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" placeholder="Odinson" name="last_name" required pattern="[A-Za-zÀ-ÖØ-öø-ÿ]+(?:[ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*">
-                    </div>
-                    <div class="input-style">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
-                    </div>
-                    <div class="input-style">
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" id="phone-number" name="phone_number" placeholder="123-456-7890" required pattern="[+]?[0-9][0-9 ()-]{7,20}">
-                    </div>
-                    <div class="input-style">
-                        <label for="user_password">PASSWORD</label>
-                        <input type="password" id="user_password" name="password" placeholder="Type Your Password" required pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,}">
-                    </div>
-                    <div class="input-style">
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirm_password" placeholder="Re-Type Your Password" required>
+            <form action="#" method="POST">
+                <div class="form-bg">
+                    <p class="legend">Let's Do This.</p>
+                    <div class="input-fields">
+                        <div class="input-style">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" placeholder="Thor" name="first_name" required pattern="[A-Za-zÀ-ÖØ-öø-ÿ]+(?:[ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*">
+                        </div>
+                        <div class="input-style">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" placeholder="Odinson" name="last_name" required pattern="[A-Za-zÀ-ÖØ-öø-ÿ]+(?:[ '-][A-Za-zÀ-ÖØ-öø-ÿ]+)*">
+                        </div>
+                        <div class="input-style">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                        </div>
+                        <div class="input-style">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" id="phone-number" name="phone_number" placeholder="123-456-7890" required pattern="[+]?[0-9][0-9 ()-]{7,20}">
+                        </div>
+                        <div class="input-style">
+                            <label for="user-password">PASSWORD</label>
+                            <input type="password" id="user-password" name="password" placeholder="Type Your Password" required pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,}">
+                        </div>
+                        <div class="input-style">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm_password" placeholder="Re-Type Your Password" required>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <button type="submit">Create Account</button>
-        </form>
-
-        <p class="login-text">Already have an account? <a href="#login">Log In</a></p>
-
-    </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p class="login-text">Already have an account? <a href="#login">Log In</a></p>
+        </div>
+    </main>
 </body>
 </html>
