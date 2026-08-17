@@ -1,0 +1,54 @@
+
+body {
+    font-family: "inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 85%;
+    
+}
+
+/* Left side */
+
+.hero {
+    position: relative;
+    width: 40%;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(18, 48, 71, 0.5);
+    padding: 50px 0;
+}
+
+.credit {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.credit a {
+    color: white;
+}
+
+/* Right side */
+
